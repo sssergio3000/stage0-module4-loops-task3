@@ -24,6 +24,6 @@ public class GreatestCommonDivisor {
 
     public static void main(String[] args) {
         GreatestCommonDivisor gcd = new GreatestCommonDivisor();
-        gcd.printGCD(10,250);
+        gcd.printGCD(0,250);
     }
 }

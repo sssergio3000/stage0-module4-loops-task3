@@ -7,6 +7,8 @@ public class DigitsSum {
         str += t;
 //        System.out.println(str);
         for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i)=='-')
+                continue;
             sum += Integer.parseInt("" + str.charAt(i));
 
         }
@@ -16,6 +18,6 @@ public class DigitsSum {
 
     public static void main(String[] args) {
         DigitsSum ds = new DigitsSum();
-        ds.printDigitsSum(256);
+        ds.printDigitsSum(0);
     }
 }
